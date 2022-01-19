@@ -20,4 +20,4 @@ RUN python3 -m pip install --no-cache-dir -r requirements.txt pylibdmtx python-b
 
 EXPOSE 8013
 
-CMD [ "./brother_ql_web.py", "--model", "QL-700", "tcp://192.168.2.123" ]
+CMD ["python3","-u","brother_ql_web.py", "--model", "QL-700", "tcp://192.168.2.123" ]
