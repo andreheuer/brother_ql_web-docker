@@ -16,7 +16,7 @@ WORKDIR ./brother_ql_web
 
 RUN rm -r .git
 
-RUN python3 -m pip install --no-cache-dir -r requirements.txt pylibdmtx
+RUN python3 -m pip install --no-cache-dir -r requirements.txt pylibdmtx barcode
 
 EXPOSE 8013
 
