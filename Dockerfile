@@ -10,7 +10,7 @@ RUN apt-get install -f -y git python3-pip fontconfig libdmtx0b
 
 RUN ln -s /usr/bin/python3 /usr/bin/python
 
-RUN git clone --depth=1 https://github.com/mistressofjellyfish/brother_ql_web.git
+RUN git clone --depth=1 https://github.com/andreheuer/brother_ql_web.git
 
 WORKDIR ./brother_ql_web
 
